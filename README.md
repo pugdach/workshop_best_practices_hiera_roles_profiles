@@ -10,7 +10,28 @@ Puppet User Group Berlin Workshop Session
 
 ### Import
 
+Import can overload classes
+
+Fix the example code in ```best_practices/manifests/import.pp``` and ```best_practices/manifests/nodes.pp```
+
+Import in modules can load files which are not in proper namesapce.
+
+Fix the example code in ```best_practices/modules/imports/manifests/init.pp``` and ```best_practices/modules/imports/manifests/imports.pp```
+
+
 ### Inheritance
+
+Node inheritance
+
+Fix the node code in ```best_practices/manifests/inheritance.pp```
+
+Think about proper solutions for replacement of variables on node level.
+
+Class inheritance
+
+Understand the code in ```best_practices/modules/inheritance/manifests```
+
+Rewrite code to a parameterized class.
 
 ### Remote Modules
 
