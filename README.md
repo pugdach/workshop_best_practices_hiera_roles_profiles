@@ -1,4 +1,4 @@
-# This repository has code snippets which are used in
+This repository has code snippets which are used in
 
 Puppet User Group Berlin Workshop Session
 
