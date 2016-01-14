@@ -2,11 +2,11 @@ This repository has code snippets which are used in
 
 Puppet User Group Berlin Workshop Session
 
-- Best practices (#best-practices)
-- Hiera (#hiera)
-- Roles & Profiles (#roles-profiles)
+- [Best practices](#best-practices)
+- [Hiera](#hiera)
+- [Roles & Profiles](#roles-profiles)
 
-## Best practices <a id="best-practices"></a>
+## Best practices <a name="best-practices"></a>
 
 ### Import
 
@@ -21,7 +21,7 @@ Puppet User Group Berlin Workshop Session
 ### Hyphens and Periods
 
 
-## Hiera <a id="hiera"></a>
+## Hiera <a name="hiera"></a>
 
 ### Hierarchy planning
 
@@ -30,7 +30,7 @@ Puppet User Group Berlin Workshop Session
 ### Hiera lookups
 
 
-## Roles and Profiles <a id="roles-profiles"></a>
+## Roles and Profiles <a name="roles-profiles"></a>
 
 ### Node inheritance
 
