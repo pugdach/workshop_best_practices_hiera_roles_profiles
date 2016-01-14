@@ -1,6 +1,6 @@
 This repository has code snippets which are used in
 
-Puppet User Group Berlin Workshop Session
+[Puppet User Group Berlin](http://www.meetup.com/Puppet-User-Group-Berlin/) Workshop Session
 
 - [Best practices](#best-practices)
 - [Hiera](#hiera)
