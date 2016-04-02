@@ -127,3 +127,11 @@ Role = Business Use Case for a System/Service
 
 ### Node classification on Roles
 
+Example:
+
+wordpress installation
+
+- what is thebusiness use case?
+- what profiles do you need
+- what technical component modules do you need?
+
