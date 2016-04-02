@@ -1,0 +1,13 @@
+data_validation::array:
+  - 'one'
+  - 'two'
+data_validation::hash:
+  - service:
+    - ntp:
+      - enable: 'true'
+      - ensure: 'running'
+    - httpd:
+      - enable: false
+      - ensure: 'stopped'
+data_validation::string: true
+data_validation::bool: 'string'

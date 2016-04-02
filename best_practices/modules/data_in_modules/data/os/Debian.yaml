@@ -1,0 +1,2 @@
+---
+ntp::keys_file: "/etc/ntp/keys"

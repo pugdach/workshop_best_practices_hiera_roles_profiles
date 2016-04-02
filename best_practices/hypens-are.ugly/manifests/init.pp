@@ -1,0 +1,2 @@
+class hypens-are.ugly {
+}

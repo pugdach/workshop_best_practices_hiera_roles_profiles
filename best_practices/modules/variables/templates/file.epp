@@ -1,0 +1,5 @@
+# demo file
+# 
+# title: <%= $title %>
+
+var = <%= $var %>
