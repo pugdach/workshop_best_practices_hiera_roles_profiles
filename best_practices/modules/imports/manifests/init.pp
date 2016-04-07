@@ -1,3 +1,3 @@
 class imports {
-    include imports::imported
+    include imports::imports
 }
