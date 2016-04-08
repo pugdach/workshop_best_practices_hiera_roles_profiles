@@ -1,5 +1,5 @@
 node 'foo' {
-    include bar
+    include role::app_front
 }
 
 class bar {

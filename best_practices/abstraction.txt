@@ -1,0 +1,7 @@
+
+Roles (Business Use Case) <--- Node classification
+Profiles (Implementation) <--- Data lookups
+Technical Component Modules
+Classes
+Types
+Providers -> command utilities

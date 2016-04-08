@@ -1,9 +1,24 @@
 class data_validation (
-  $array = [],
-  $hash = {},
-  $string = '',
-  $bool = undef,
+  Array             $array = [],
+  Hash              $hash = {},
+  String            $string = '',
+  Optional[Boolean] $bool = undef,
 ){
+  $key = hiera('key')
+  case $key {
+    Array: { 
+      #... 
+    }
+    String: {
+      #..
+    }
+    default: { 
+      fail()
+    }
+  }
+  if assert_type($key, String) {
+    # ...
+  }
   $array.each |$value| {
     notify { "Array has a value of: ${value}": }
   }
@@ -14,3 +29,4 @@ class data_validation (
     notify { "Bool is true and string is ${string}": }
   }
 }
+

@@ -2,4 +2,5 @@
 # 
 # title: <%= $title %>
 
-var = <%= $var %>
+var = <%= $more_variables::var %>
+

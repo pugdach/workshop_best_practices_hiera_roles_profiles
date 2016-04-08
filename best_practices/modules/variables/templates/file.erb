@@ -1,5 +1,7 @@
 # demo file
 # 
-# title: <%= title %>
+# title: <%= @title %>
 
-var = <%= var %>
+var = <%= @var %>                               # Pupprt 2,3,4
+var = <%= scope.lookupvar('variables::var') %>  # Puppet 2,3,4
+var = <%= scope['variables::var'] %>            # Puppet 3,4
